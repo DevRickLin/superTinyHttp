@@ -1,0 +1,24 @@
+{
+  "name": "supertinyhttp",
+  "version": "1.0.0",
+  "description": "a super tiny http server",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc && npx tsc-alias",
+    "serve": "node ./dist/index.js"
+  },
+  "author": "DevRickLin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/node-localstorage": "^1.3.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/minimist": "^1.2.2",
+    "http-status-code-json-list": "^1.0.0",
+    "minimist": "^1.2.6",
+    "node-localstorage": "^2.2.1"
+  }
+}
